@@ -180,11 +180,11 @@ h4 {
     }
 }
 
-@media screen and (max-width: 999px) {
+/*@media screen and (max-width: 999px) {
     video {
         display: none;
     }
-}
+}*/
 
 /*@media screen and (min-width: 250px) {
     .section-center .service-card {
