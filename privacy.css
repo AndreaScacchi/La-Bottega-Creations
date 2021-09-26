@@ -1,0 +1,153 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Amita&family=Carter+One&family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,100&display=swap');
+
+/* Variables */
+:root {
+    --ff-amita: 'Amita', sans-serif;
+    --ff-carterOne: 'Carter One', sans-serif;
+    --ff-cinzel: 'Cinzel', sans-serif;
+    --ff-kanit: 'Kanit', sans-serif;
+    --clr-white: #fff;
+    --clr-black: #000;
+    --clr-pink: rgb(211, 19, 115);
+    --clr-green: rgb(4, 146, 28);
+    --clr-blue: rgb(1, 5, 214);
+    --clr-red: rgb(172, 2, 2);
+    --clr-yellow: rgb(194, 167, 14);
+    --clr-violet: rgb(115, 13, 211);
+    --gradient-primary: linear-gradient(to top left, #bd349f, #03724d);
+    --transition: all 0.3s linear;
+    --spacing: 0.25rem;
+    --radius: 0.5rem;
+}
+
+/* Privacy Police*/
+.privacy-header {
+    background: var(--clr-pink);
+    padding: 0 3rem;
+    height: 30vh;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.privacy h1 {
+    color: var(--clr-black);
+    text-align: center;
+    padding-top: 7rem;
+}
+
+.footer {
+    padding: 7rem 0rem 15rem;
+}
+
+
+.h2-privacy {
+    margin-top: 2rem;
+}
+
+.our-privacy {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.service-privacy {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    margin-top: 2rem;
+    font-weight: bold;
+    font-family: var(--ff-kanit);
+}
+
+strong {
+    font-family: var(--ff-cinzel);
+}
+
+.para-privacy {
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.info, .list-ind {
+    margin-bottom: 1rem;
+}
+
+.info {
+    text-align: center;
+    font-family: var(--ff-cinzel);
+}
+
+.para-ind, .para-pub{
+    text-align: left;
+}
+
+.final-para {
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-family: var(--ff-cinzel);
+}
+
+@media screen and (max-width: 680px) {
+    .h1-privacy {
+        font-size: 2rem;
+    }
+
+    .our-privacy h2 {
+        font-size: 1.2rem;
+    }
+
+    .para-privacy {
+        font-size: 0.9rem;
+    }
+
+    .service-privacy .info {
+        font-size: 1rem;
+    }
+
+    .list-ind .para-ind {
+        font-size: 0.9rem;
+    }
+
+    .list-pub .para-pub {
+        font-size: 0.9rem;
+    }
+
+    .final-para {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .privacy .h1-privacy {
+        font-size: 1.5rem;
+    }
+
+    .our-privacy h2 {
+        font-size: 1rem;
+    }
+
+    .para-privacy {
+        font-size: 0.7rem;
+    }
+
+    .service-privacy .info {
+        font-size: 0.9rem;
+    }
+
+    .list-ind .para-ind {
+        font-size: 0.7rem;
+    }
+
+    .list-pub .para-pub {
+        font-size: 0.7rem;
+    }
+
+    .final-para {
+        font-size: 0.7rem;
+    }
+}

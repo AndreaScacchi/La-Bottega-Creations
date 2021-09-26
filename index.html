@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/favicon.png">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/0615dc2069.js" crossorigin="anonymous"></script>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+    <title>La Bottega Creations</title>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="nav" id="nav">
+        <div class="nav-center"> 
+            <!-- nav header -->
+            <div class="nav-header">
+                <img src="./img/lbc.svg" alt="nav logo" class="nav-logo">
+                <button class="nav-btn" id="nav-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            <!-- nav links -->
+            <ul class="nav-links">
+                <li>
+                    <a class="nav-link" href=".main-header">home</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#section-2">lavori</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#section-3">contatti</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- sidebar -->
+    <aside class="sidebar" id="sidebar">
+        <div>
+            <button class="close-btn" id="close-btn">
+                <i class="fas fa-times"></i>
+            </button>
+            <!-- nav links -->
+            <ul class="sidebar-links">
+                <li>
+                    <a class="sidebar-link" href=".main-header">home</a>
+                </li>
+                <li>
+                    <a class="sidebar-link" href="#section-2">lavori</a>
+                </li>
+                <li>
+                    <a class="sidebar-link" href="#section-3">contatti</a>
+                </li>
+            </ul>
+            <!-- social icons -->
+            <ul class="social-icons sidebar-icons">
+                <li>
+                    <a href="" target="_blank" class="social-icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="" target="_blank" class="social-icon">
+                        <i class="fab fa-etsy"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </aside>
+
+    <!-- header -->
+    <header class="main-header" id="main-header">
+        <div class="header-div">
+            <h1 class="h1">
+                When
+                <span class="highlight">art</span>
+                meets<br>
+                <span class="highlight">power</span>
+            </h1>
+            <button class="btn--text btn--scroll-to">Scopri di più &DownArrow;</button>
+        </div>
+    </header>
+
+    <!-- about us -->
+    <section class="section" id="section-1">
+        <div class="section-title about-title">
+            <h2 class="section-description">About Us</h2>
+            <h3 class="section-header">L'arte non è un mestiere, è la maniera in qui si esercita un mestiere</h3>
+        </div>
+
+        <div class="about-center">
+            <article class="about-img">
+                <img src="./img/img-1.jpeg" alt="awesome jewelry" class="about-photo">
+            </article>
+
+            <article class="about-info">
+                <h3>Esplora la nostra realtà</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, delectus necessitatibus eos
+                    praesentium quidem quod repellat inventore beatae ratione. Harum.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure, delectus necessitatibus eos
+                    praesentium quidem quod repellat inventore beatae ratione. Harum.</p>
+
+                <!--<ul class="about-list">
+                    <li>100% artigianale</li>
+                    <li>Materiali di prima qualità</li>
+                    <li>Spedizione nazionale e internazionale</li>
+                    <li>Passione e dedizione</li>
+                </ul>-->
+            </article>
+        </div>
+
+        <!--<div class="about-us">
+            <img
+                src="img/jew-lazy4.jpg"
+                data-src="img/jew4.jpg"
+                alt="Gioielli"
+                class="about-img lazy-img"
+            />
+            <div class="about-container">
+                <h5 class="about-header">100% lavorato a mano</h5>
+                <p class="para-about">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde alias
+                sint quos? Accusantium a fugiat porro reiciendis saepe quibusdam
+                debitis ducimus.
+                </p>
+            </div>
+
+            <div class="about-container">
+                <h5 class="about-header">Watch your money grow</h5>
+                <p class="para-about">
+                    Nesciunt quos autem dolorum voluptates cum dolores dicta fuga
+                    inventore ab? Nulla incidunt eius numquam sequi iste pariatur
+                    quibusdam!
+                </p>
+            </div>
+            <img
+                src="img/jew-lazy2.jpg"
+                data-src="img/jew2.jpg"
+                alt="Gioielli"
+                class="about-img lazy-img"
+            />
+
+            <img
+                src="img/jew-lazy3.jpg"
+                data-src="img/jew4.jpg"
+                alt="Gioielli"
+                class="about-img lazy-img"
+            />
+            <div class="about-container">
+                <h5 class="about-header">100% artigianale</h5>
+                <p class="para-about">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde alias
+                sint quos? Accusantium a fugiat porro reiciendis saepe quibusdam
+                debitis ducimus.
+                </p>
+            </div>
+        </div>-->
+    </section>
+
+    <!-- Services-->
+    <section class="services section" id="section-2">
+        <div class="section-title services-title">
+            <h2 class="section-description">Explore</h2>
+            <h3 class="section-header">I nostri lavori</h3>
+        </div>
+        <div class="section-center clearfix">
+            <article class="service-card">
+                <div class="service-img-container">
+                    <img src="img/img-2.jpeg" alt="single service" class="service-img">
+                    <!--<span class="service-icon">
+                        <i class="fas fa-gem"></i>
+                    </span>-->
+                </div>
+                <div class="service-info">
+                    <h4>online ordering</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime at ut asperiores accusantium
+                        atque sequi.</p>
+                    <a href="products.html" class="btn service-btn">read more</a>
+                </div>
+            </article>
+
+            <article class="service-card">
+                <div class="service-img-container">
+                    <img src="img/img-3.jpeg" alt="single service" class="service-img img-3">
+                    <!--<span class="service-icon">
+                        <i class="fas fa-gem"></i>
+                    </span>-->
+                </div>
+                <div class="service-info">
+                    <h4>home delivery</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime at ut asperiores accusantium
+                        atque sequi.</p>
+                    <a href="products.html" class="btn service-btn">read more</a>
+                </div>
+            </article>
+
+            <article class="service-card">
+                <div class="service-img-container">
+                    <img src="img/img-4.jpeg" alt="single service" class="service-img">
+                    <!--<span class="service-icon">
+                        <i class="fas fa-gem"></i>
+                    </span>-->
+                </div>
+                <div class="service-info">
+                    <h4>free wifi</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime at ut asperiores accusantium
+                        atque sequi.</p>
+                    <a href="products.html" class="btn service-btn">read more</a>
+                </div>
+            </article>
+
+            <article class="service-card">
+                <div class="service-img-container">
+                    <img src="img/img-5.jpeg" alt="single service" class="service-img">
+                    <!--<span class="service-icon">
+                        <i class="fas fa-gem"></i>
+                    </span>-->
+                </div>
+                <div class="service-info">
+                    <h4>free wifi</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime at ut asperiores accusantium
+                        atque sequi.</p>
+                    <a href="products.html" class="btn service-btn">read more</a>
+                </div>
+            </article>
+
+            <article class="service-card">
+                <div class="service-img-container">
+                    <img src="img/img-6.jpeg" alt="single service" class="service-img">
+                    <!--<span class="service-icon">
+                        <i class="fas fa-gem"></i>
+                    </span>-->
+                </div>
+                <div class="service-info">
+                    <h4>free wifi</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime at ut asperiores accusantium
+                        atque sequi.</p>
+                    <a href="products.html" class="btn service-btn">read more</a>
+                </div>
+            </article>
+
+            <article class="service-card">
+                <div class="service-img-container">
+                    <img src="img/img-7.jpeg" alt="single service" class="service-img">
+                    <!--<span class="service-icon">
+                        <i class="fas fa-gem"></i>
+                    </span>-->
+                </div>
+                <div class="service-info">
+                    <h4>free wifi</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime at ut asperiores accusantium
+                        atque sequi.</p>
+                    <a href="products.html" class="btn service-btn">read more</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Contatti -->
+    <section class="section" id="section-3">
+        <h2 class="contact-description"> I nostri contatti</h2>
+        <div class="connect">
+            <video controls autoplay muted loop class="video-container" poster="./img/jew1.jpg">
+                <source src="./img/video-jew.mp4" type="video/mp4">
+                Sorry your browser does not support embedded videos
+            </video>
+            <div class="video-banner">
+                <div class="video-title">
+                <h2 class="get-contact">let's get in touch</h2>
+                <div class="underline"></div>
+                </div>
+                <p class="video-text">
+                Qui troverete tutti i nostri contatti
+                </p>
+                <article class="contact-info">
+                    <div class="contact-item">
+                        <h4 class="contact-title">
+                            <span class="contact-icon">
+                                <i class="fab fa-etsy"></i>
+                            </span>
+                            etsy
+                        </h4>
+                        <h4 class="contact-text">
+                            757 Market St
+                        </h4>
+                    </div>
+
+                    <div class="contact-item">
+                        <h4 class="contact-title">
+                            <span class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </span>
+                            email
+                        </h4>
+                        <h4 class="contact-text">
+                            email@mail.com
+                        </h4>
+                    </div>
+
+                    <div class="contact-item">
+                        <h4 class="contact-title">
+                            <span class="contact-icon">
+                                <i class="fab fa-facebook"></i>
+                            </span>
+                            facebook
+                        </h4>
+                        <h4 class="contact-text">
+                            + 123 456 789
+                        </h4>
+                    </div>
+                </article>
+                <a href="etsy.com" class="btn-contact" target="_blank">contattaci</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section footer">
+        <div class="footer-div">
+            <!-- footer links -->
+            <ul class="footer-links">
+                <!-- single link -->
+                <li>
+                    <a href="#main-header" class="footer-link scroll-link">home</a>
+                </li>
+                <!-- end of single link -->
+
+                <!-- single link -->
+                <li>
+                    <a href="#section-2" class="footer-link scroll-link">lavori</a>
+                </li>
+                <!-- end of single link -->
+
+                <!-- single link -->
+                <li>
+                    <a href="#section-3" class="footer-link scroll-link">contatti</a>
+                </li>
+                <!-- end of single link -->
+
+                <!-- single link -->
+                <li>
+                    <a href="privacy.html" target="_blank" class="footer-link scroll-link">privacy policy</a>
+                </li>
+                <!-- end of single link -->
+            </ul>
+            <!-- end of footer links -->
+            <br>
+
+            <!-- footer icons -->
+            <ul class="footer-icons">
+                <!-- single icon -->
+                <li>
+                    <a href="https://www.twitter.com" target="_blank" class="footer-icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <!-- end of single icon -->
+
+                <!-- single icon -->
+                <li>
+                    <a href="https://www.twitter.com" target="_blank" class="footer-icon">
+                        <i class="fab fa-etsy"></i>
+                    </a>
+                </li>
+                <!-- end of single icon -->
+            </ul>
+            <!-- end of footer icons -->
+            <br>
+
+            <p class="copyright">
+                &copy; <span id="date"></span> <span id="bottega">La Bottega</span> <span id="creations">Creations</span> all rights reserved<br> By Andrea Scacchi
+            </p>
+        </div>
+
+        <div class="button-div">
+            <button class="btn-top">
+                <!--<i class="fas fa-arrow-up"></i>-->
+            </button>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
