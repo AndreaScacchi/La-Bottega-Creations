@@ -441,13 +441,6 @@ h4 {
         font-size: 50px;
     }
 
-    /*.btn--scroll-to {
-        font-size: 20px;
-        margin-top: -8.5em;
-    }*/
-}
-
-@media (pointer: coarse), screen and (max-width: 362px) {
     .btn--scroll-to {
         font-size: 20px;
         margin-top: -8.5em;
