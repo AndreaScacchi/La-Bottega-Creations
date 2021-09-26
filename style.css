@@ -427,10 +427,10 @@ h4 {
     }
 }
 
-@media screen and (max-width: 362px) {
-.main-header {
-    height: 920px;
-}
+@media (pointer: coarse), screen and (max-width: 362px) {
+    .main-header {
+	height: 920px;
+    }
 
     .header-div {
         display: grid;
