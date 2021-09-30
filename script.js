@@ -133,7 +133,7 @@ allSections.forEach(function (section) {
 });*/
 
 // Loading images 
-const imgTargets = document.querySelectorAll("img[data-src]");
+/*const imgTargets = document.querySelectorAll("img[data-src]");
 
 const loadImg = function (entries, observer) {
     const [entry] = entries;
@@ -156,7 +156,7 @@ const imgObserver = new IntersectionObserver(loadImg, {
     rootMargin: "200px",
 });
 
-imgTargets.forEach((img) => imgObserver.observe(img));
+imgTargets.forEach((img) => imgObserver.observe(img));*/
 
 // When user clicks on the button, scroll to the top of the document
 const btnTop = document.querySelector(".btn-top");
