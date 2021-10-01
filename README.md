@@ -8,6 +8,6 @@ Moreover, I tried to create a user-friendly website, using the modern technologi
 
 Finally, I created also a contact section with a video background. However, there is an issue with several devices, like Iphone, where the video is blocked, or you can't see it.
 
-This site is continuously under construction to provide the best user experience. More features will be add in future.
+This site is continuously under construction to provide the best user experience. More features will be added in future.
 
 Here is the link to the site [La Bottega Creations](https://la-bottega-creations.netlify.app/)
