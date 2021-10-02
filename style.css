@@ -182,7 +182,7 @@ h4 {
 
 @media screen and (min-width: 316px) and (max-width: 492px) {
     .video-banner {
-        margin-left: -5rem;
+        margin-left: -4rem;
     }
 
     .video-title .get-contact {
