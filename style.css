@@ -899,6 +899,7 @@ lazy-img {
 
 .facebook-link {
     text-decoration: none;
+    color: var(--clr-black);
 }
 
 /* Footer */
