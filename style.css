@@ -160,7 +160,7 @@ h4 {
     }
 
     .video-banner {
-        margin-left: -0.5rem;
+        margin-left: -5rem;
     }
 
     .video-title .get-contact {
@@ -172,11 +172,29 @@ h4 {
     }
 
     .contact-info {
-        font-size: 12px;
+        font-size: 9px;
     }
 
     .video-banner .btn-contact {
-        font-size: 12px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 316px) and (max-width: 492px) {
+    .video-banner {
+        margin-left: -5rem;
+    }
+
+    .video-title .get-contact {
+        font-size: 17px;
+    }
+
+    .video-banner .video-text {
+        font-size: 15px;
+    }
+
+    .contact-info {
+        font-size: 9px;
     }
 }
 
