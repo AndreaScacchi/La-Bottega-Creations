@@ -895,6 +895,9 @@ lazy-img {
 .contact-text {
     text-transform: uppercase;
     color: var(--clr-black);
+}
+
+.facebook-link {
     text-decoration: none;
 }
 
