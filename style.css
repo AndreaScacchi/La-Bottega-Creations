@@ -180,11 +180,11 @@ h4 {
     }
 }
 
-/*@media screen and (max-width: 999px) {
+@media screen and (max-width: 1024px) {
     video {
         display: none;
     }
-}*/
+}
 
 /*@media screen and (min-width: 250px) {
     .section-center .service-card {
@@ -433,9 +433,9 @@ h4 {
     }
 }
 
-@media (pointer: coarse), screen and (max-width: 362px) {
+@media screen and (max-width: 362px) {
     .main-header {
-	height: 920px;
+        height: 920px;
     }
 
     .header-div {
@@ -895,7 +895,7 @@ lazy-img {
 .contact-text {
     text-transform: uppercase;
     color: var(--clr-black);
-    
+    text-decoration: none;
 }
 
 /* Footer */
