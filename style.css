@@ -540,6 +540,25 @@ h4 {
     font-size: 20px;
 }
 
+.about-info .about-para-1 {
+    color: var(--clr-pink);
+    line-height: 1.1;
+}
+
+.about-info .about-para-2 {
+    color: var(--clr-black);
+    line-height: 1.4;
+}
+
+.strong {
+    color: var(--clr-pink);
+    line-height: 1.1;
+}
+
+.about-info .em {
+    color: var(--clr-pink);
+}
+
 @media screen and (min-width: 992px) {
     .about-center {
         display: flex;
