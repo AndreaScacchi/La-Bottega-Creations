@@ -933,6 +933,10 @@ lazy-img {
     font-weight: 400;
 }
 
+.etsy-link {
+    color: var(--clr-black);
+}
+
 .contact-text {
     text-transform: uppercase;
     color: var(--clr-black);
