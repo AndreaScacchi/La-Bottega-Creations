@@ -10,30 +10,6 @@ const nav = document.querySelector(".nav");
 // Set date
 date.innerHTML = new Date().getFullYear();
 
-// Animate the H1 element in the header
-var textWrapper = document.querySelector(".ml12");
-textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-
-anime
-    .timeline({ loop: true })
-    .add({
-        targets: ".ml12 .letter",
-        translateX: [40, 0],
-        translateZ: 0,
-        opacity: [0, 1],
-        easing: "easeOutExpo",
-        duration: 1200,
-        delay: (el, i) => 500 + 30 * i,
-    })
-    .add({
-        targets: ".ml12 .letter",
-        translateX: [0, -30],
-        opacity: [1, 0],
-        easing: "easeInExpo",
-        duration: 1100,
-        delay: (el, i) => 100 + 30 * i,
-    });
-
 // Add sticky navbar
 window.addEventListener('scroll', function() {
     if(window.pageYOffset > 80) {
@@ -53,6 +29,24 @@ navBtn.addEventListener("click", function() {
 closeBtn.addEventListener('click', function() {
     sidebar.classList.remove("show-sidebar");
 });
+
+//Menu fade animation
+const handleHover = function (e) {
+    if (e.target.classList.contains("nav-link")) {
+        const link = e.target;
+        const siblings = link.closest(".nav").querySelectorAll(".nav-link");
+        const logo = link.closest(".nav").querySelector("img");
+
+        siblings.forEach((el) => {
+        if (el !== link) el.style.opacity = this;
+        });
+        logo.style.opacity = this;
+    }
+};
+
+// Passing "argument" into handler
+nav.addEventListener("mouseover", handleHover.bind(0.5));
+nav.addEventListener("mouseout", handleHover.bind(1));
 
 // Button scrolling
 btnScrollTo.addEventListener("click", function (e) {
@@ -115,24 +109,6 @@ document.querySelector(".sidebar-links").addEventListener("click", function (e) 
         sidebar.classList.remove("show-sidebar");
     }
 });
-
-// Menu fade animation
-const handleHover = function (e) {
-    if (e.target.classList.contains("nav-link")) {
-        const link = e.target;
-        const siblings = link.closest(".nav").querySelectorAll(".nav-link");
-        const logo = link.closest(".nav").querySelector("img");
-
-        siblings.forEach((el) => {
-        if (el !== link) el.style.opacity = this;
-        });
-        logo.style.opacity = this;
-    }
-};
-
-// Passing "argument" into handler
-nav.addEventListener("mouseover", handleHover.bind(0.5));
-nav.addEventListener("mouseout", handleHover.bind(1));
 
 // Reveal sections
 /*const allSections = document.querySelectorAll(".section");
@@ -208,3 +184,27 @@ const buttonTop = function() {
     });
 };
 buttonTop();
+
+// Animate the H1 element in the header
+var textWrapper = document.querySelector(".ml12");
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime
+    .timeline({ loop: true })
+    .add({
+        targets: ".ml12 .letter",
+        translateX: [40, 0],
+        translateZ: 0,
+        opacity: [0, 1],
+        easing: "easeOutExpo",
+        duration: 1200,
+        delay: (el, i) => 500 + 30 * i,
+    })
+    .add({
+        targets: ".ml12 .letter",
+        translateX: [0, -30],
+        opacity: [1, 0],
+        easing: "easeInExpo",
+        duration: 1100,
+        delay: (el, i) => 100 + 30 * i,
+    });
